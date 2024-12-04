@@ -1,0 +1,6 @@
+version: '2'
+services:
+  i18n-app:
+    build: .
+    ports:
+      - "8080:8080"
